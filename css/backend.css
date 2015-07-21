@@ -1,0 +1,40 @@
+/*Service meta box*/
+span.section-inputfield {
+  display: block;
+  margin-top: 10px;
+}
+
+.section-inputfield input[type="text"] {
+  width: 100%;
+}
+
+.delete-button.product-features {
+  display: block;
+  margin-top: 25px;
+}
+
+.delete-select-feature {
+  float: right;
+}
+
+h3.wrapper-title {
+  float: left;
+}
+
+.single-feature {
+  margin-bottom: 13px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

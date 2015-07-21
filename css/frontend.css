@@ -1,0 +1,490 @@
+
+body{
+	color: #000 !important;
+    font-size: 22px !important;
+    color: #333 !important;
+}
+
+a{
+	border-bottom: none !important;
+	transition:all ease-in-out 0.5s;
+	-webkit-transition:all ease-in-out 0.5s;
+	-moz-transition:all ease-in-out 0.5s;
+}
+
+img{
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+Clearings
+--------------------------------------------------------------*/
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after,
+.ak-container:after,
+.ak-container:before {
+	content: '';
+	display: table;
+}
+.clearfix:after,
+.row:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after,
+.ak-container:after {
+	clear: both;
+}
+.clear{
+	clear:both;
+}
+
+
+h1.section-title{
+	background: #eee none repeat scroll 0 0;
+    font-size: 30px !important;
+    font-weight: 600;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+/*ALL TITLE MARGIN*/
+.service_posts_wrapper, .product-section-wrapper, .team-section-wrapper, .testimonials-wrapper, .clients-wrapper, .projects-section-wrapper {
+    margin-bottom: 60px;
+}
+
+/*=======================================================
+SERVICE SECTION
+=======================================================*/
+
+.single-service-wrap {
+    float: left;
+    margin-right: 3%;
+    text-align: center;
+    width: 47%;
+}
+.service-title {
+    font-size: 21px !important;
+    font-weight: normal;
+    margin: 0 !important;
+}
+.service-title > a {
+    border-bottom: none !important;
+}
+.service-title > a:hover {
+	color: #58b25e;
+}
+.service-icon {
+    color: #000;
+    font-size: 60px;
+    line-height: 90px;
+    
+}
+.service-excerpt {
+	color: #666;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+/* PAGINATION BAR */
+.cpt-pagination {
+    font-size: 14px;
+    text-align: right;
+}	
+.cpt-pagination a, .cpt-pagination span {
+	border-bottom: none !important;
+	padding: 3px;
+}
+.cpt-pagination a:hover{
+	color: #58b25e;
+}
+.cpt-pagination .current{
+	color: #58b25e;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*=============================================
+FEATURE SECTION
+===============================================*/
+
+.feature-icon {
+    border: 4px double #ccc;
+    border-radius: 100%;
+    font-size: 35px;
+    height: 80px;
+    line-height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80px;
+}
+.product-title {
+    border-bottom: 4px double #ccc;
+    padding-left: 5px;
+    margin-top: 0 !important;
+    margin-bottom: 30px;
+}
+.features_wrap {
+	text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.product-container .signle-product-wrap {
+    display: inline-block;
+    margin-right: 5%;
+    vertical-align: middle;
+    width: 46%;
+}
+.product-container:nth-of-type(even) .signle-product-wrap {
+	display: inline-block;
+    margin-right: 5%;
+    vertical-align: middle;
+    width: 46%;
+}
+.feature-name {
+	margin-bottom: 10px;
+    color: #222;
+    font-size: 20px;
+    font-weight: normal !important;
+}
+.feature-description {
+    color: #666;
+    font-size: 14px;
+}
+.feature-icon {
+    border: 4px double #ccc;
+    border-radius: 100%;
+    font-size: 35px;
+    height: 80px;
+    line-height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80px;
+}
+.product-container .single-product-image {
+	display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+.product-container:nth-of-type(even) .single-product-image {
+	display: inline-block;
+}
+
+/*===========================================================
+TEAM SECTION
+============================================================*/
+.single-member-wrap {
+    float: left;
+    margin-right: 2%;
+    width: 32%;
+}
+.single-member-wrap:last-child {
+	margin-right: 0;
+}
+.member-flip-wrap{
+	position: relative;
+}
+
+.member-info {
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    padding: 10% 3%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition:all ease-in-out 0.5s;
+    -moz-transition:all ease-in-out 0.5s;
+}
+.member-flip-wrap:hover .member-info{
+	background: rgba(255, 255, 255, 0.8) !important;
+	left: 0;
+	visibility: visible;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	display: block;
+}
+.member-name {
+    font-size: 22px !important;
+    margin: 0 !important;
+    color: #fff !important;
+    text-align: center;
+}
+.member-name a{
+	border-bottom: none !important;
+	transition:all ease-in-out 0.5s;
+	-webkit-transition:all ease-in-out 0.5s;
+	-moz-transition:all ease-in-out 0.5s;
+}
+.member-name a:hover{
+	color: #278f2e;
+}
+.member-desgination {
+    font-size: 16px !important;
+    color: #333;
+}
+.member-social-links {
+    font-size: 18px;
+}
+.fb a, .tw a, .gp a, .lnk a {
+	padding: 5px;
+    border-bottom: none !important;
+}
+.fb a:hover{
+	color: #0079e9;
+}
+.tw a:hover{
+	color: #01b7d8;
+}
+.gp a:hover{
+	color: #e13939;
+}
+.lnk a:hover{
+	color: #0079e9;
+}
+
+/*================================================
+TEAM SECTION READMORE
+================================================*/
+.post-thumbnail {
+    margin: 0 auto 10px !important;
+    padding: 4% 10% 0 10% !important;
+}
+.post-thumbnail img{
+	border:1px solid #eee;
+	padding: 5px;
+}
+h1.entry-title {
+    background: #eee none repeat scroll 0 0;
+    font-size: 35px;
+    margin-bottom: 10px !important;
+    padding: 5px 20px;
+}
+.entry-content {
+    color: #666;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/*===========================================
+TESTIMONIAL SECTION
+============================================*/
+
+.testi-author-image-wrap {
+    border: 3px solid #fff;
+    box-shadow: 0 0 5px #999;
+    float: left;
+    margin-right: 3%;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 20%;
+}
+.testi-author-image-wrap img:hover{
+	animation-name:pulse;
+	-webkit-animation-name:pulse;
+	animation-duration:0.5s;
+	-webkit-animation-duration:0.5s;
+}
+
+.single-testimonial-wrap{
+	margin-bottom: 20px;
+}
+.testimonial-conent {
+    color: #333;
+    font-size: 16px;
+    line-height: 23px;
+    font-style: italic; 
+}
+.testimonial-conent p:before{
+	content: "\f10d";
+	font-family: fontawesome;
+	font-size: 14px;
+	margin-right: 5px;
+	color: #666;
+}
+.testimonial-conent p:after{
+	content: "\f10e";
+	font-family: fontawesome;
+	font-size: 14px;
+	margin-left: 5px;
+	color: #666;
+}
+.testimonial-conent p{
+	margin-bottom: 0px !important;
+}
+.tauthor-info h4{
+	margin: 0 !important;
+	font-size: 16px !important;
+	color: #333 !important;
+	display: inline-block;
+}
+.testi-author-article-wrap {
+    float: left;
+    width: 75%;
+    display: inline-block;
+}
+.testi-author-company, .testi-author-desgination{
+	font-size: 14px;
+	color: #666;
+}
+
+/*===================================================
+CLIENT SECTION
+====================================================*/
+.single-client-wrap {
+    display: inline-block;
+    margin: 0 3% 0 0;
+    vertical-align: middle;
+    width: 21%;
+}
+.single-client-wrap a:hover, .single-client-wrap img:hover {
+	animation-name:pulse;
+	-webkit-animation-name:pulse;
+	animation-duration:0.3s;
+	-webkit-animation-duration:0.3s;
+	animation-delay:0.3s;
+	-webkit-animation-delay:0.3s;
+}
+
+/*==========================================================
+RECENT WORK
+===========================================================*/
+.signle-project-wrap{
+	width: 47%;
+	display: inline-block;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+.signle-project-wrap:nth-of-type(even){
+	margin-right: 0;
+}
+.project-title {
+    font-size: 20px !important;
+    margin: 15px 0 !important;
+    text-align: center;
+}
+.project-desc {
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+.signle-project-wrap > figure {
+    overflow: hidden;
+}
+a.more-link {
+    color: #3498db;
+    vertical-align: middle;
+}
+
+a.more-link:hover{
+	color:#58b25e !important;
+}
+
+.signle-project-wrap:hover img{
+	animation-name:pulse;
+	-webkit-animation-name:pulse;
+	animation-duration:0.5s;
+	-webkit-animation-duration:0.5s;
+}
+
+
+/*===============================================
+ANIMATION KEYFRAMES
+===============================================*/
+@keyframes pulse{
+	0%{transform:scale(1); -webkit-transform:scale(1);}
+	50%{transform:scale(1.2); -webkit-transform:scale(1.2);}
+	100%{transform:scale(1); -webkit-transform:scale(1);}
+}
+@-webkit-keyframes pulse{
+	0%{transform:scale(1); -webkit-transform:scale(1);}
+	50%{transform:scale(1.2); -webkit-transform:scale(1.2);}
+	100%{transform:scale(1); -webkit-transform:scale(1);}
+}
+
+
+
+
+
+/*========================================================================================
+RESPONSIVE STYLESHEET
+=========================================================================================*/
+
+@media screen and (max-width:980px){
+	.service-icon{
+		line-height: 90px;
+	}
+	.product-container .single-product-image{
+		width: 48%;
+	}
+	.testi-author-image-wrap{
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.product-container .single-product-image{
+	}
+}
+
+
+@media screen and (max-width: 640px){
+	.single-service-wrap, .product-container .signle-product-wrap, .product-container:nth-of-type(2n) .signle-product-wrap{
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+		
+	.product-container .single-product-image, .product-container:nth-of-type(2n) .single-product-image{
+		display: none;
+	}
+	.single-member-wrap{
+		width: 100%;
+		float: none;
+		margin-bottom: 10%;
+		margin-right: 0;
+		text-align: center;
+	}
+	.testi-author-image-wrap, .testi-author-article-wrap{
+		float: none;
+		width: 100%;
+		margin-bottom: 10%;
+		height: auto;
+	}
+	.tauthor-info{
+		text-align: center;
+	}
+	.tauthor-info h4{
+		margin-top: 5px !important;
+		display: block;
+		text-align: center;
+	}
+	.testi-author-company, .testi-author-desgination{
+		text-align: center;
+	}
+	.signle-project-wrap{
+		float: none;
+		width: 100%;
+		margin-bottom: 10%;
+		margin-right: 0;
+	}
+}
